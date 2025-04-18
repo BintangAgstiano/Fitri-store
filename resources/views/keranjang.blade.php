@@ -91,23 +91,23 @@
                                                 enctype="multipart/form-data">
                                                 @csrf
                                                 <div class="mb-3">Nama Lengkap</label>
-                                                    <input type="text" name="nama_lengkap" class="form-control"
+                                                    <input type="text" name="nama_lengkap" required class="form-control"
                                                         id="exampleInputEmail1" aria-describedby="emailHelp">
 
                                                 </div>
                                                 <div class="mb-3">
-                                                    <label for="exampleInputPassword1" class="form-label">ALamat</label>
+                                                    <label for="exampleInputPassword1" required class="form-label">ALamat</label>
                                                     <input type="text" name="alamat" class="form-control"
                                                         id="exampleInputPassword1">
                                                 </div>
                                                 <div class="mb-3">
-                                                    <label for="exampleInputPassword1" class="form-label">Nomer
+                                                    <label for="exampleInputPassword1" required class="form-label">Nomer
                                                         Handphone</label>
                                                     <input type="text" name="no_hp" id="exampleInputPassword1" class="form-control">
                                                 </div>
 
                                                 <div class="mb-3">
-                                                    <label for="exampleInputPassword1" class="form-label">Bukti
+                                                    <label for="exampleInputPassword1" required class="form-label">Bukti
                                                         Pembayaran</label>
                                                     <input type="file" name="bukti_pembayaran" class="form-control"
                                                         id="inputGroupFile01">

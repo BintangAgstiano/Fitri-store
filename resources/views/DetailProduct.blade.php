@@ -84,26 +84,26 @@
                                                 enctype="multipart/form-data">
                                                 @csrf
                                                 <div class="mb-3">Nama Lengkap</label>
-                                                    <input type="text" name="nama_lengkap" class="form-control"
+                                                    <input type="text" required name="nama_lengkap" class="form-control"
                                                         id="exampleInputEmail1" aria-describedby="emailHelp">
 
                                                 </div>
                                                 <div class="mb-3">
                                                     <label for="exampleInputPassword1" class="form-label">ALamat</label>
-                                                    <input type="text" name="alamat" class="form-control"
+                                                    <input type="text" name="alamat" required class="form-control"
                                                         id="exampleInputPassword1">
                                                 </div>
                                                 <div class="mb-3">
                                                     <label for="exampleInputPassword1" class="form-label">Nomer
                                                         Handphone</label>
-                                                    <input type="text" name="no_hp" id="exampleInputPassword1"
+                                                    <input type="text" name="no_hp" required id="exampleInputPassword1"
                                                         class="form-control">
                                                 </div>
 
                                                 <div class="mb-3">
                                                     <label for="exampleInputPassword1" class="form-label">Bukti
                                                         Pembayaran</label>
-                                                    <input type="file" name="bukti_pembayaran" class="form-control"
+                                                    <input type="file" name="bukti_pembayaran" required class="form-control"
                                                         id="inputGroupFile01">
                                                 </div>
                                                 <ul>
